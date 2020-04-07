@@ -1,0 +1,123 @@
+img{
+    width:100% ;
+    height:100% ;
+}
+
+p{
+    color:black;
+    font-family: Arial;
+    font-size: 15px; 
+}
+
+.table{
+    font-size: 12px; 
+    border-top-color: white; 
+    text-align: left;
+}
+
+body{
+    background-color: lightgrey; 
+}
+
+.title{
+    color: lightseagreen;  
+    font-family: 'Times New Roman';
+    font: 75px;
+    font-weight: bolder; 
+    padding-top: 0px; 
+    
+    
+}
+
+.box {
+    min-height: 400px;
+    min-width: auto;
+    margin-top: 75px;
+    padding: 10px 20px 15px; 
+    color:black;
+    font: 50px;
+    background-color: white; 
+
+  }
+
+.navbar{
+    font-size: 50px;
+    max-height: 55px; 
+}
+
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: white; 
+    font-size: 50px; 
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:lightgrey; 
+}
+
+.dropdown-item{
+    color: black ; 
+
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:lightgrey; 
+    min-width: 50px;
+}
+
+a{
+    color: lightgrey;
+    font-size: 10px; 
+} 
+
+.nav-link:hover{
+    background-color:lightgrey;
+   }
+
+.navbar-brand:hover{
+color:lightgrey;
+}
+
+.active, .panel:hover{
+    border-color:lightseagreen;
+    border-style: solid; 
+    
+}
+.vizualization{
+    width:50% ;
+    height:50% ;
+    
+}
+
+
+
+
+/* Media Queries */
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: lightseagreen;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px ; 
+}
+
+button {
+    margin-right: 30px; 
+}
+}
